@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126686393968",
+    "firebase_url": "https://hyundaitogo-720ae.firebaseio.com",
+    "project_id": "hyundaitogo-720ae",
+    "storage_bucket": "hyundaitogo-720ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126686393968:android:93258e4fe61796324866b5",
+        "android_client_info": {
+          "package_name": "com.example.hyundai_togo_ct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126686393968-08l8k2ntn86udvv583qg1taplssoo37j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hyundai_togo_ct",
+            "certificate_hash": "ba4963e9316caadf6f6e183b2297615251dcc920"
+          }
+        },
+        {
+          "client_id": "126686393968-3chevs4qfhpjuu0g515ou4eeeelh0n0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWPkl5bfwy0XCj8FVZgukL1Iwq8GLqYrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126686393968-3chevs4qfhpjuu0g515ou4eeeelh0n0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

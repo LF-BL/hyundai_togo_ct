@@ -1,0 +1,678 @@
+name: hyundai_togo_ct
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_pro: ^1.0.0
+  flutter_datetime_picker: ^1.3.8
+  image_picker: ^0.6.7+4
+  imageview360: ^1.1.0
+  bottom_navy_bar: ^5.4.0
+  typicons_flutter: ^0.3.1
+  #cloud_firestore: ^0.13.7
+  #firebase_auth: ^0.16.1
+  #firebase_database: ^3.1.6
+  #firebase_storage: ^3.1.6
+  #google_sign_in: ^4.5.1
+  #shared_preferences: ^0.5.8
+  #fluttertoast: ^7.0.2
+  #firebase_core: ^0.4.5
+  #provider: ^4.3.2
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  url_launcher: ^5.5.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/promotion/lanceur.jpg"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/carousel/3.png
+    - assets/images/carousel/3.jpg
+    - assets/images/carousel/4.jpg
+    - assets/images/carousel/5.jpg
+    - assets/images/carousel/6.jpg
+    - assets/g.png
+    #- assets/lanceur.png
+    - assets/hyundai.png
+    - assets/garage/1.jpg
+    - assets/garage/2.jpg
+    - assets/garage/4.jpg
+    - assets/garage/5.jpg
+    - assets/garage/connexion.jpg
+    - assets/garage/contact.jpg
+    - assets/garage/devis.jpg
+    - assets/garage/rdv.jpg
+    - assets/images/homepic/demande-devis.png
+    - assets/images/homepic/garantie.png
+    - assets/images/homepic/relationclient.png
+    - assets/images/homepic/catalogue.png
+    - assets/images/homepic/gamme.jpg
+    - assets/images/homepic/testdrive.png
+    - assets/images/homepic/connexion.jpg
+    - assets/images/homepic/contact.png
+    - assets/images/homepic/connection.jpg
+    - assets/images/homepic/contacter.jpg
+    - assets/images/homepic/soffre.jpg
+    - assets/images/homepic/promotion.jpg
+    - assets/images/ix35/ix 351.png
+    - assets/images/ix35/ix 352.png
+    - assets/images/ix35/ix 353.png
+    - assets/images/promotion/accent offres.png
+    - assets/images/promotion/creta prom.png
+    - assets/images/promotion/santafe promo.png
+    - assets/images/ocsantafe/santafe ancien1.png
+    - assets/images/ocsantafe/santafe ancien2.png
+    - assets/images/ocsantafe/santafe ancien3.png
+    - assets/images/modeles/elantra.png
+    - assets/images/modeles/Eon.png
+    - assets/images/modeles/creta.png
+    - assets/images/modeles/i20active.png
+    - assets/images/modeles/venus.png
+    - assets/images/modeles/i10.png
+    - assets/images/modeles/i20.png
+    - assets/images/modeles/i30.png
+    - assets/images/modeles/i40.png
+    - assets/images/modeles/kona.png
+    - assets/images/modeles/palisade.png
+    - assets/images/modeles/santafe.png
+    - assets/images/modeles/sonata.png
+    - assets/images/modeles/tucson.png
+    - assets/images/berlin/accent.png
+    - assets/images/berlin/azera.png
+    - assets/images/berlin/elantra.png
+    - assets/images/berlin/i20.png
+    - assets/images/berlin/sonata.png
+    - assets/images/berlin/newgrandi10.png
+    - assets/images/commercial/h1.png
+    - assets/images/commercial/h-100.png
+    - assets/images/suv/creta.png
+    - assets/images/suv/venus.png
+    - assets/images/suv/tucson.png
+    - assets/images/suv/palisade.png
+    - assets/images/suv/santa-fe.png
+    - assets/images/suv/i20active.png
+    - assets/images/accent/1.jpg
+    - assets/images/accent/2.jpg
+    - assets/images/accent/3.jpg
+    - assets/images/accent/4.jpg
+    - assets/images/accent/5.jpg
+    - assets/images/accent/6.jpg
+    - assets/images/accent/7.jpg
+    - assets/images/accent/8.jpg
+    - assets/images/accent/9.jpg
+    - assets/images/accent/10.jpg
+    - assets/images/accent/11.jpg
+    - assets/images/accent/12.jpg
+    - assets/images/accent/13.jpg
+    - assets/images/accent/14.jpg
+    - assets/images/accent/15.jpg
+    - assets/images/accent/16.jpg
+    - assets/images/accent/17.jpg
+    - assets/images/accent/18.jpg
+    - assets/images/accent/19.jpg
+    - assets/images/accent/20.jpg
+    - assets/images/accent/21.jpg
+    - assets/images/accent/22.jpg
+    - assets/images/accent/23.jpg
+    - assets/images/accent/24.jpg
+    - assets/images/accent/25.jpg
+    - assets/images/accent/26.jpg
+    - assets/images/accent/27.jpg
+    - assets/images/accent/28.jpg
+    - assets/images/accent/29.jpg
+    - assets/images/accent/30.jpg
+    - assets/images/accent/31.jpg
+    - assets/images/accent/32.jpg
+    - assets/images/accent/33.jpg
+    - assets/images/accent/34.jpg
+    - assets/images/accent/35.jpg
+    - assets/images/accent/36.jpg
+    - assets/images/santafe/1.png
+    - assets/images/santafe/2.png
+    - assets/images/santafe/3.png
+    - assets/images/santafe/4.png
+    - assets/images/santafe/5.png
+    - assets/images/santafe/6.png
+    - assets/images/santafe/7.png
+    - assets/images/santafe/8.png
+    - assets/images/santafe/9.png
+    - assets/images/santafe/10.png
+    - assets/images/santafe/11.png
+    - assets/images/santafe/12.png
+    - assets/images/santafe/13.png
+    - assets/images/santafe/14.png
+    - assets/images/santafe/15.png
+    - assets/images/santafe/16.png
+    - assets/images/santafe/17.png
+    - assets/images/santafe/18.png
+    - assets/images/santafe/19.png
+    - assets/images/santafe/20.png
+    - assets/images/santafe/21.png
+    - assets/images/santafe/22.png
+    - assets/images/santafe/23.png
+    - assets/images/santafe/24.png
+    - assets/images/santafe/25.png
+    - assets/images/santafe/28.png
+    - assets/images/santafe/31.png
+    - assets/images/santafe/32.png
+    - assets/images/santafe/33.png
+    - assets/hy.png
+    - assets/images/kona/1.png
+    - assets/images/kona/2.png
+    - assets/images/kona/3.png
+    - assets/images/kona/4.png
+    - assets/images/kona/5.png
+    - assets/images/kona/6.png
+    - assets/images/kona/7.png
+    - assets/images/kona/8.png
+    - assets/images/kona/9.png
+    - assets/images/kona/10.png
+    - assets/images/kona/11.png
+    - assets/images/kona/12.png
+    - assets/images/kona/13.png
+    - assets/images/kona/14.png
+    - assets/images/kona/15.png
+    - assets/images/kona/16.png
+    - assets/images/kona/17.png
+    - assets/images/kona/18.png
+    - assets/images/kona/19.png
+    - assets/images/kona/20.png
+    - assets/images/elantra/2.webp
+    - assets/images/elantra/3.webp
+    - assets/images/elantra/4.webp
+    - assets/images/elantra/5.webp
+    - assets/images/elantra/6.webp
+    - assets/images/elantra/7.webp
+    - assets/images/elantra/8.webp
+    - assets/images/elantra/9.webp
+    - assets/images/elantra/10.webp
+    - assets/images/elantra/11.webp
+    - assets/images/elantra/12.webp
+    - assets/images/elantra/13.webp
+    - assets/images/elantra/14.webp
+    - assets/images/elantra/15.webp
+    - assets/images/elantra/16.webp
+    - assets/images/elantra/17.webp
+    - assets/images/elantra/18.webp
+    - assets/images/elantra/19.webp
+    - assets/images/elantra/20.webp
+    - assets/images/elantra/21.webp
+    - assets/images/elantra/22.webp
+    - assets/images/elantra/23.webp
+    - assets/images/elantra/24.webp
+    - assets/images/elantra/25.webp
+    - assets/images/elantra/28.webp
+    - assets/images/elantra/31.webp
+    - assets/images/elantra/32.webp
+    - assets/images/elantra/33.webp
+    - assets/images/elantra/34.webp
+    - assets/images/elantra/35.webp
+    - assets/images/elantra/36.webp
+    - assets/images/i10/1.png
+    - assets/images/i10/2.png
+    - assets/images/i10/3.png
+    - assets/images/i10/4.png
+    - assets/images/i10/5.png
+    - assets/images/i10/6.png
+    - assets/images/i10/7.png
+    - assets/images/i10/8.png
+    - assets/images/i10/9.png
+    - assets/images/i10/10.png
+    - assets/images/i10/11.png
+    - assets/images/i10/12.png
+    - assets/images/i10/13.png
+    - assets/images/i10/14.png
+    - assets/images/i10/15.png
+    - assets/images/i10/16.png
+    - assets/images/i10/17.png
+    - assets/images/i10/18.png
+    - assets/images/i10/19.png
+    - assets/images/i10/20.png
+    - assets/images/i10/21.png
+    - assets/images/i10/22.png
+    - assets/images/i10/23.png
+    - assets/images/i10/24.png
+    - assets/images/i10/25.png
+    - assets/images/i10/26.png
+    - assets/images/i10/27.png
+    - assets/images/i10/28.png
+    - assets/images/i10/29.png
+    - assets/images/i10/30.png
+    - assets/images/i10/31.png
+    - assets/images/i10/32.png
+    - assets/images/i10/33.png
+    - assets/images/i10/34.png
+    - assets/images/i10/35.png
+    - assets/images/tucson/1.webp
+    - assets/images/tucson/2.webp
+    - assets/images/tucson/3.webp
+    - assets/images/tucson/4.webp
+    - assets/images/tucson/5.webp
+    - assets/images/tucson/6.webp
+    - assets/images/tucson/7.webp
+    - assets/images/tucson/8.webp
+    - assets/images/tucson/9.webp
+    - assets/images/tucson/10.webp
+    - assets/images/tucson/11.webp
+    - assets/images/tucson/12.webp
+    - assets/images/tucson/13.webp
+    - assets/images/tucson/14.webp
+    - assets/images/tucson/15.webp
+    - assets/images/tucson/16.webp
+    - assets/images/tucson/17.webp
+    - assets/images/tucson/18.webp
+    - assets/images/tucson/19.webp
+    - assets/images/tucson/20.webp
+    - assets/images/tucson/21.webp
+    - assets/images/tucson/22.webp
+    - assets/images/tucson/23.webp
+    - assets/images/tucson/24.webp
+    - assets/images/tucson/25.webp
+    - assets/images/tucson/28.webp
+    - assets/images/tucson/31.webp
+    - assets/images/tucson/32.webp
+    - assets/images/tucson/33.webp
+    - assets/images/tucson/34.webp
+    - assets/images/tucson/35.webp
+    - assets/images/tucson/36.webp
+    - assets/images/venus/1.webp
+    - assets/images/venus/2.webp
+    - assets/images/venus/3.webp
+    - assets/images/venus/4.webp
+    - assets/images/venus/5.webp
+    - assets/images/venus/6.webp
+    - assets/images/venus/7.webp
+    - assets/images/venus/8.webp
+    - assets/images/venus/9.webp
+    - assets/images/venus/10.webp
+    - assets/images/venus/11.webp
+    - assets/images/venus/12.webp
+    - assets/images/venus/13.webp
+    - assets/images/venus/14.webp
+    - assets/images/venus/15.webp
+    - assets/images/venus/16.webp
+    - assets/images/venus/17.webp
+    - assets/images/venus/18.webp
+    - assets/images/venus/19.webp
+    - assets/images/venus/20.webp
+    - assets/images/venus/21.webp
+    - assets/images/venus/22.webp
+    - assets/images/venus/23.webp
+    - assets/images/venus/24.webp
+    - assets/images/venus/25.webp
+    - assets/images/venus/28.webp
+    - assets/images/venus/31.webp
+    - assets/images/venus/32.webp
+    - assets/images/venus/33.webp
+    - assets/images/venus/34.webp
+    - assets/images/venus/35.webp
+    - assets/images/venus/36.webp
+    - assets/images/palisade/1.webp
+    - assets/images/palisade/2.webp
+    - assets/images/palisade/3.webp
+    - assets/images/palisade/4.webp
+    - assets/images/palisade/5.webp
+    - assets/images/palisade/6.webp
+    - assets/images/palisade/7.webp
+    - assets/images/palisade/8.webp
+    - assets/images/palisade/9.webp
+    - assets/images/palisade/10.webp
+    - assets/images/palisade/11.webp
+    - assets/images/palisade/12.webp
+    - assets/images/palisade/13.webp
+    - assets/images/palisade/14.webp
+    - assets/images/palisade/15.webp
+    - assets/images/palisade/16.webp
+    - assets/images/palisade/17.webp
+    - assets/images/palisade/18.webp
+    - assets/images/palisade/19.webp
+    - assets/images/palisade/20.webp
+    - assets/images/palisade/21.webp
+    - assets/images/palisade/22.webp
+    - assets/images/palisade/23.webp
+    - assets/images/palisade/24.webp
+    - assets/images/palisade/25.webp
+    - assets/images/palisade/28.webp
+    - assets/images/palisade/31.webp
+    - assets/images/palisade/32.webp
+    - assets/images/palisade/33.webp
+    - assets/images/palisade/34.webp
+    - assets/images/palisade/35.webp
+    - assets/images/palisade/36.webp
+    - assets/images/i20/1.jpg
+    - assets/images/i20/2.jpg
+    - assets/images/i20/3.jpg
+    - assets/images/i20/4.jpg
+    - assets/images/i20/5.jpg
+    - assets/images/i20/6.jpg
+    - assets/images/i20/7.jpg
+    - assets/images/i20/8.jpg
+    - assets/images/i20/9.jpg
+    - assets/images/i20/10.jpg
+    - assets/images/i20/11.jpg
+    - assets/images/i20/12.jpg
+    - assets/images/i20/13.jpg
+    - assets/images/i20/14.jpg
+    - assets/images/i20/15.jpg
+    - assets/images/i20/16.jpg
+    - assets/images/i20/17.jpg
+    - assets/images/i20/18.jpg
+    - assets/images/i20/19.jpg
+    - assets/images/i20/20.jpg
+    - assets/images/i20/21.jpg
+    - assets/images/i20/22.jpg
+    - assets/images/i20/23.jpg
+    - assets/images/i20/24.jpg
+    - assets/images/i20/25.jpg
+    - assets/images/i20/26.jpg
+    - assets/images/i20/27.jpg
+    - assets/images/i20/28.jpg
+    - assets/images/i20/29.jpg
+    - assets/images/i20/30.jpg
+    - assets/images/i20/31.jpg
+    - assets/images/h1/1.png
+    - assets/images/h1/2.png
+    - assets/images/h1/3.png
+    - assets/images/h1/4.png
+    - assets/images/h1/5.png
+    - assets/images/h1/6.png
+    - assets/images/h1/7.png
+    - assets/images/h1/8.png
+    - assets/images/h1/9.png
+    - assets/images/h1/10.png
+    - assets/images/h1/11.png
+    - assets/images/h1/12.png
+    - assets/images/h1/13.png
+    - assets/images/h1/14.png
+    - assets/images/h1/15.png
+    - assets/images/h1/16.png
+    - assets/images/h1/17.png
+    - assets/images/h1/18.png
+    - assets/images/h1/19.png
+    - assets/images/h1/20.png
+    - assets/images/h1/21.png
+    - assets/images/h1/22.png
+    - assets/images/h1/23.png
+    - assets/images/h1/24.png
+    - assets/images/h1/25.png
+    - assets/images/h1/26.png
+    - assets/images/h1/27.png
+    - assets/images/h1/28.png
+    - assets/images/h1/29.png
+    - assets/images/h1/30.png
+    - assets/images/h1/31.png
+    - assets/images/h1/32.png
+    - assets/images/h1/33.png
+    - assets/images/h1/34.png
+    - assets/images/h1/35.png
+    - assets/images/azera/1.png
+    - assets/images/azera/2.png
+    - assets/images/azera/3.png
+    - assets/images/azera/4.png
+    - assets/images/azera/5.png
+    - assets/images/azera/6.png
+    - assets/images/azera/7.png
+    - assets/images/azera/8.png
+    - assets/images/azera/9.png
+    - assets/images/azera/10.png
+    - assets/images/azera/11.png
+    - assets/images/azera/12.png
+    - assets/images/azera/13.png
+    - assets/images/azera/14.png
+    - assets/images/azera/15.png
+    - assets/images/azera/16.png
+    - assets/images/azera/17.png
+    - assets/images/azera/18.png
+    - assets/images/azera/19.png
+    - assets/images/azera/20.png
+    - assets/images/azera/21.png
+    - assets/images/azera/22.png
+    - assets/images/azera/23.png
+    - assets/images/azera/24.png
+    - assets/images/azera/25.png
+    - assets/images/azera/26.png
+    - assets/images/azera/27.png
+    - assets/images/azera/28.png
+    - assets/images/azera/29.png
+    - assets/images/azera/30.png
+    - assets/images/azera/31.png
+    - assets/images/azera/32.png
+    - assets/images/azera/33.png
+    - assets/images/azera/34.png
+    - assets/images/azera/35.png
+    - assets/images/azera/36.png
+    - assets/images/sonata/1.png
+    - assets/images/sonata/2.png
+    - assets/images/sonata/3.png
+    - assets/images/sonata/4.png
+    - assets/images/sonata/5.png
+    - assets/images/sonata/6.png
+    - assets/images/sonata/7.png
+    - assets/images/sonata/8.png
+    - assets/images/sonata/9.png
+    - assets/images/sonata/10.png
+    - assets/images/sonata/11.png
+    - assets/images/sonata/12.png
+    - assets/images/sonata/13.png
+    - assets/images/sonata/14.png
+    - assets/images/sonata/15.png
+    - assets/images/sonata/16.png
+    - assets/images/sonata/17.png
+    - assets/images/sonata/18.png
+    - assets/images/sonata/19.png
+    - assets/images/sonata/20.png
+    - assets/images/sonata/21.png
+    - assets/images/sonata/22.png
+    - assets/images/sonata/23.png
+    - assets/images/sonata/24.png
+    - assets/images/sonata/25.png
+    - assets/images/sonata/26.png
+    - assets/images/sonata/27.png
+    - assets/images/sonata/28.png
+    - assets/images/sonata/29.png
+    - assets/images/sonata/30.png
+    - assets/images/sonata/31.png
+    - assets/images/sonata/32.png
+    - assets/images/sonata/33.png
+    - assets/images/sonata/34.png
+    - assets/images/sonata/35.png
+    - assets/images/sonata/36.png
+    - assets/images/creta/1.png
+    - assets/images/creta/2.png
+    - assets/images/creta/3.png
+    - assets/images/creta/4.png
+    - assets/images/creta/5.png
+    - assets/images/creta/6.png
+    - assets/images/creta/7.png
+    - assets/images/creta/8.png
+    - assets/images/creta/9.png
+    - assets/images/creta/10.png
+    - assets/images/creta/11.png
+    - assets/images/creta/12.png
+    - assets/images/creta/13.png
+    - assets/images/creta/14.png
+    - assets/images/creta/15.png
+    - assets/images/creta/16.png
+    - assets/images/creta/17.png
+    - assets/images/creta/18.png
+    - assets/images/creta/19.png
+    - assets/images/creta/20.png
+    - assets/images/creta/21.png
+    - assets/images/creta/22.png
+    - assets/images/creta/23.png
+    - assets/images/creta/24.png
+    - assets/images/creta/25.png
+    - assets/images/creta/26.png
+    - assets/images/creta/27.png
+    - assets/images/creta/28.png
+    - assets/images/creta/29.png
+    - assets/images/creta/30.png
+    - assets/images/creta/31.png
+    - assets/images/creta/32.png
+    - assets/images/creta/33.png
+    - assets/images/creta/34.png
+    - assets/images/creta/35.png
+    - assets/images/bi20/1.jpg
+    - assets/images/bi20/2.jpg
+    - assets/images/bi20/3.jpg
+    - assets/images/bi20/4.jpg
+    - assets/images/bi20/5.jpg
+    - assets/images/bi20/6.jpg
+    - assets/images/bi20/7.jpg
+    - assets/images/bi20/8.jpg
+    - assets/images/bi20/9.jpg
+    - assets/images/bi20/10.jpg
+    - assets/images/bi20/11.jpg
+    - assets/images/bi20/12.jpg
+    - assets/images/bi20/13.jpg
+    - assets/images/bi20/14.jpg
+    - assets/images/bi20/15.jpg
+    - assets/images/H100/1.jpg
+    - assets/images/H100/2.jpg
+    - assets/images/H100/3.jpg
+    - assets/images/H100/4.jpg
+    - assets/images/H100/5.jpg
+    - assets/images/H100/6.jpg
+    - assets/images/H100/7.jpg
+    - assets/images/H100/8.jpg
+    - assets/images/H100/9.jpg
+    - assets/images/H100/10.jpg
+    - assets/images/H100/11.jpg
+    - assets/images/H100/12.jpg
+    - assets/images/H100/13.jpg
+    - assets/images/H100/14.jpg
+    - assets/images/H100/15.jpg
+    - assets/images/H100/16.jpg
+    - assets/images/H100/17.jpg
+    - assets/images/H100/18.jpg
+    - assets/images/H100/19.jpg
+    - assets/images/H100/20.jpg
+    - assets/images/H100/21.jpg
+    - assets/images/H100/22.jpg
+    - assets/images/H100/23.jpg
+    - assets/images/H100/24.jpg
+    - assets/images/H100/25.jpg
+    - assets/images/H100/26.jpg
+    - assets/images/H100/27.jpg
+    - assets/images/H100/28.jpg
+    - assets/images/H100/29.jpg
+    - assets/images/H100/30.jpg
+    - assets/images/H100/31.jpg
+    - assets/images/H100/32.jpg
+    - assets/images/H100/33.jpg
+    - assets/images/H100/34.jpg
+    - assets/images/H100/35.jpg
+    - assets/images/H100/36.jpg
+    - assets/assets/images/g.png
+    - assets/assets/garage.png
+    - assets/assets/map.jpg
+    - assets/assets/images/hy.png
+    - assets/assets/images/asssets/images/kona.png
+    - assets/assets/images/asssets/images/log.png
+    - assets/assets/images/log.png
+    - assets/assets/images/sos.png
+    - assets/assets/images/essence.jpg
+    - assets/assets/images/clef.jpg
+    - assets/assets/images/pneu.jpg
+    - assets/assets/images/remorquer.jpg
+    - assets/assets/images/taxi.jpg
+    - assets/assets/images/batterie.jpg
+    - assets/assets/images/GIT.jpg
+    - assets/assets/images/service.jpg
+    - assets/assets/images/message.jpg
+    - assets/assets/images/WAS.jpg
+    - assets/assets/images/get.jpg
+    - assets/assets/images/gmail.jpg
+    - assets/images/i10/lingo.jpg
+    - assets/images/i10/interieur.jpg
+    - assets/images/i10/moteur.jpg
+    - assets/images/i10/securite.jpg
+    - assets/images/360.png
+    - assets/assets/images/asssets/images/chat.png
+    - assets/garage/rsa.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  fonts:
+    - family: hyundai
+      fonts:
+        - asset: assets/fonts/HyundaiSansHeadKRBold (1).ttf
+        - asset: assets/fonts/HyundaiSansHeadKRLight (1).ttf
+        - asset: assets/fonts/HyundaiSansHeadKRMedium.ttf
+        - asset: assets/fonts/HyundaiSansHeadKRRegular.ttf
+        - asset: assets/fonts/HyundaiSansTextKRBold.ttf
+        - asset: assets/fonts/HyundaiSansTextKRMedium.ttf
+        - asset: assets/fonts/HyundaiSansTextKRRegular.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
